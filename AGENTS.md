@@ -7,6 +7,12 @@
 - After reordering, rebasing, or updating a stack, run `gh stack submit --open` again so remote base branches and pull-request diffs stay synchronized.
 - Keep each pull request small and independently reviewable against its declared base branch.
 
+## Pull Request Descriptions
+
+- Every pull request description must include a concise summary of the requested behavior it addresses.
+- Describe the implementation scope of the pull request, limited to the changes introduced by that pull request in the stack.
+- Include a `DDL changes` section that lists schema changes such as tables, columns, constraints, indexes, and migrations. Explicitly state `None` when there are no DDL changes.
+
 ## Code Review Rules
 
 ### Stacked pull-request scope
