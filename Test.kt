@@ -1,2 +1,3 @@
 
-fun main() = println("Hello")
+val name = "Haneul"
+fun main() = println("Hello $name")
