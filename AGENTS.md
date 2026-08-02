@@ -3,6 +3,7 @@
 ## Issue-Driven Development
 
 - Before starting implementation, create a GitHub issue that captures the complete requirements for the work, including the objective, expected behavior, acceptance criteria, constraints, and anything explicitly out of scope.
+- Create the issue with `.github/ISSUE_TEMPLATE/requirements.md`, preserve its headings, and complete every section. Use `None` when a section has no applicable content.
 - Use that issue as the single requirements reference for the entire stacked pull-request series.
 - Record the issue number before creating implementation branches or changing code.
 
@@ -16,6 +17,7 @@
 
 ## Pull Request Descriptions
 
+- Use `.github/pull_request_template.md` for every pull request, preserve its headings, and complete every section. If the submission tool does not populate the template, construct the pull-request body with the same sections before requesting review.
 - Every pull request description must include a concise summary of the requested behavior it addresses.
 - Describe the implementation scope of the pull request, limited to the changes introduced by that pull request in the stack.
 - Include the requirements issue reference for the stacked work.
